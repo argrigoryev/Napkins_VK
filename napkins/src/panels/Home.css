@@ -1,0 +1,64 @@
+.Btn {
+    background-color: #E83A93;
+}
+
+.Counter {
+    background-color: #E83A93;
+}
+
+.PooBtn:active {
+	transform: translateY(0);
+	box-shadow: none;
+}
+
+.PooBtn img {
+	width: 48px;
+	height: 48px;
+	transform: translateY(6px);
+}
+
+span[role="img"] {
+	padding-right: 4px;
+}
+.PooBtnContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.DaysLeftHeading,
+.DaysLeftSubheading {
+	text-align: center;
+}
+
+.DaysLeftHeading {
+	font-size: 64px;
+    margin-bottom: 8px;
+    color: #E83A93;
+}
+
+.DaysLeftSubheading {
+	margin-top: 0;
+}
+
+@media (max-height: 568px) {
+	.PooBtn {
+		width: 64px;
+		height: 64px;
+		margin-bottom: 0;
+	}
+
+	.PooBtn img {
+		width: 32px;
+		height: 32px;
+		transform: translateY(4px);
+	}
+
+	.DaysLeftHeading {
+		font-size: 48px;
+	}
+
+	.DaysLeftSubheading {
+		margin-bottom: 0;
+	}
+}
